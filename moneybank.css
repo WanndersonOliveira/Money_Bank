@@ -1,0 +1,1334 @@
+/*Início do cabeçalho*/
+.cabecalho{
+	position: absolute;
+	width: 1050px;
+	height: 50px;
+	background-color: #006600;
+	border-radius: 5px;
+	z-index: 3;
+}
+
+.c1{
+   position: absolute;
+   top: 5px;
+   left: 10px;
+}
+
+.c2{
+   position: absolute;
+   top: -20px;
+   left: 120px;
+   font-size: 20pt;
+   font-family: Segoe UI Black;
+}
+
+.c3{
+	position: absolute;
+	top: 15px;
+	left: 600px;
+}
+
+.c4{
+	position: absolute;
+	top: 15px;
+	left: 920px;
+    width: 150px;
+}
+
+#cpf{
+    border-radius: 5px;
+}
+
+#password{
+    border-radius: 5px;
+}
+
+#submit{
+	border-radius: 5px;
+	background-color: #00e600;
+	width: 45px;
+	height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+#pessoafisica{
+  position: absolute;
+  top: -1px;
+  left: 315px;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px; 
+  border-bottom-width: 0px;
+  background-color: #006600;
+}
+#pessoajuridica{
+  position: absolute;
+  top: 0px;
+  left: 417px;
+  color: white;
+  width: 108px;
+  height: 50px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  background-color: #006600;
+}
+
+#fisica{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+}
+#juridica{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+}
+/*fim do cabeçalho*/
+
+/*Início do elemento IMAGEM*/
+/*Início do texto da imagem*/
+#texto1{
+    position: absolute;
+    top: 150px;
+    left: 95px;
+    width: 200px;
+    height: 350px;
+    z-index: 1;
+}
+
+#pg1{
+   position: absolute;
+   top: 200px;
+   left: 80px;
+   font-size: 28pt;
+   font-family: Segoe Script;
+   width: 520px;
+   height: 50px;
+   z-index: 1;
+   color: #006600;
+}
+
+#pg2{
+	position: absolute;
+	top: 270px;
+   font-size: 24pt;
+   font-family: Segoe-UI-Semibold;
+   width: 600px;
+   height: 100px;
+   z-index: 1;
+   color: #006600;
+}
+
+#pg3{
+	position: absolute;
+	top: 320px;
+   font-size: 20pt;
+   font-family: Segoe-UI-Semibold;
+   width: 350px;
+   height: 100px;
+   z-index: 1;
+   color: #006600;
+}
+/*Fim do texto da imagem*/
+/*Imagem propriamente dita*/
+#imagem{
+	position: absolute;
+	top: 70px;
+}
+/*Fim do elemento IMAGEM*/
+
+/*Início do elemento PLANOS*/
+/*Esqueleto*/
+#planos{
+	position: absolute;
+	top: 70px;
+	left: 796px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	width: 258px;
+	height: 300px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+/*Fim esqueleto*/
+/*Cabeçalho planos*/
+#seletor{
+    font-size: 14pt;
+    font-family: times;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px; 
+    height: 25px;
+    width: 258px;
+    border-bottom-color: black;
+    position: absolute;
+    top: -19px;
+    background-color: white;
+}
+/*Fim cabeçalho planos*/
+/*Conteúdo*/
+#mb_ouro{
+    position: absolute;
+    top: 40px;
+    height: 30px;
+    width: 258px;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#mb_empr{
+    position: absolute;
+    top: 85px;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    height: 30px;
+    width: 258px;
+}
+
+#mb_univ{
+    position: absolute;
+    top: 130px;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    height: 30px;
+    width: 258px;
+}
+
+#mb_prem{
+   position: absolute;
+   top: 175px;
+   border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    height: 30px;
+    width: 258px;
+}
+
+#mb_com{
+   position: absolute;
+   top: 45px;
+   border-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    height: 30px;
+    width: 258px;
+}
+
+#mb_voy{
+   position: absolute;
+   top: 90px;
+}
+/*Fim conteúdo*/
+/*Fim elemento PLANOS*/
+
+/*Início elemento SERVIÇOS*/
+/*Título*/
+#p1{
+   position: absolute;
+   top: 360px;
+   left: -730px;
+   font-size: 28pt;
+   font-family: Franklin Gothic Medium;
+   color: #333333;
+   height: 40px;
+   width: 570px;
+}
+/*Fim Título*/
+#serv{
+	display: block;
+	position: absolute;
+	top: 470px;
+	left: -700px;
+}
+/*Início Conteúdo*/
+#serv1{
+	width: 110px;
+    height: 115px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: grey;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#serv2{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    width: 110px;
+    height: 115px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: grey;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#serv3{
+	position: absolute;
+    top: 0px;
+    left: 320px;
+    width: 110px;
+    height: 115px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: grey;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#serv4{
+	position: absolute;
+    top: 0px;
+    left: 470px;
+    width: 110px;
+    height: 115px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: grey;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#serv5{
+	position: absolute;
+    top: 0px;
+    left: 620px;
+    width: 110px;
+    height: 115px;
+}
+
+/*Início Texto*/
+#serv11{
+	font-family: Franklin Gothic Medium;
+    color: #333333;
+	position: absolute;
+	left: 3px;
+}
+
+#serv21{
+	font-family: Franklin Gothic Medium;
+	color: #333333;
+}
+
+#serv31{
+	font-family: Franklin Gothic Medium;
+	color: #333333;
+	position: absolute;
+	left: -15px;
+	width: 100px;
+}
+
+#serv41{
+	font-family: Franklin Gothic Medium;
+	color: #333333;
+	position: absolute;
+	left: -15px;
+}
+
+#serv51{
+	font-family: Franklin Gothic Medium;
+	color: #333333;
+	position: absolute;
+	left: -15px;
+	width: 100px;
+}
+/*Fim Conteúdo*/
+/*Fim Texto*/
+/*Fim elemento SERVIÇOS*/
+
+/*Início Texto2*/
+#p2{
+	position: absolute;
+	top:630px;
+	left: -770px;
+	font-size: 14pt;
+	font-family: Franklin Gothic Medium;
+	color: #666666;
+}
+/*Fim Texto2*/
+
+/*Estrutura*/
+#aplicativo{
+	position: absolute;
+	top: 700px;
+	left: -770px;
+}
+
+/*Link*/
+#aplic{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	width: 130px;
+	height: 40px;
+	font-family: Franklin Gothic Medium;
+	color: #666666;
+	text-decoration: none;
+}
+/*Fim Link*/
+/*Fim Estrutura*/
+
+/*Redes Sociais*/
+#sites{
+	display: block;
+	position: absolute;
+	left: -500px;
+	top: 710px;
+}
+
+/*Links*/
+#face{
+   position: absolute;
+   left: 40px;
+   top: 10px;
+   width: 170px;
+   height: 20px;
+   text-decoration: none;
+   color: #666666;
+   font-family: Franklin Gothic Medium;
+}
+
+#insta{
+   position: absolute;
+   left: 260px;
+   top: 10px;
+   text-decoration: none;
+   color: #666666;
+   font-family: Franklin Gothic Medium;
+}
+
+#twit{
+   position: absolute;
+   left: 460px;
+   top: 10px;
+   text-decoration: none;
+   color: #666666;
+   font-family: Franklin Gothic Medium;
+}
+/*Fim Links*/
+/*Imagens*/
+#icon3{
+   position: absolute;
+   top: 0px;
+   left: 220px;
+}
+
+#icon4{
+   position: absolute;
+   top: 0px;
+   left: 420px;
+}
+/*Fim Imagens*/
+/*Fim Redes Sociais*/
+
+/*Linha acima do footer*/
+.linha{
+	position: absolute;
+	top: 780px;
+	left: -785px;
+	width: 1050px;
+	height: 1px;
+	background-color: grey;
+}
+
+/*Início do Footer*/
+#footer{
+	position: absolute;
+	top: 1000px;
+	left: -785px;
+	width: 1050px;
+	height:40px;
+	background-color: #006600;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+}
+
+/*Parte Superior do Footer*/
+/*Delimitado pela cor verde*/
+
+#we{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-family: Franklin Gothic Medium;
+    font-size: 14pt;
+}
+
+#MBpeople{
+	position: absolute;
+	top: 10px;
+	left: 250px;
+	color: white;
+	font-family: Franklin Gothic Medium;
+	font-size: 14pt;
+}
+
+#safety{
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	color: white;
+	font-family: Franklin Gothic Medium;
+	font-size: 14pt;
+}
+
+#agency{
+	position: absolute;
+	top: 10px;
+	left: 670px;
+	color: white;
+	font-family: Franklin Gothic Medium;
+	font-size: 14pt;
+}
+
+
+
+#sac{
+	position: absolute;
+	top: 10px;
+	left: 850px;
+	color: white;
+	font-family: Franklin Gothic Medium;
+	font-size: 14pt;
+}
+
+/*Corpo do Footer*/
+/*Delimitado pela cor cinza*/
+#inf{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 1050px;
+	height:250px;
+	background-color: grey;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: none;
+}
+
+/*Delimitação espacial do Quem nós somos?*/
+#wei{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 125px;
+	height: 150px;
+	font-family: Franklin Gothic Medium;
+}
+/*Delimitação de cada elemento de Quem nós somos?*/
+#MBi{
+    position: absolute;
+	top: 5px;
+}
+
+#MBb{
+   position: absolute;
+   top: 55px;
+}
+
+#MBUSA{
+  position: absolute;
+  top: 105px;
+}
+/*Delimitação espacial de Money Bank pessoal*/
+#MBpeoplei{
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  width: 125px;
+  height: 250px;
+  font-family: Franklin Gothic Medium;
+}
+
+/*Delimitação de cada elemento do Money Bank pessoal*/
+#MBpeople1{
+	position: absolute;
+	top: 5px;
+}
+
+#MBpeople2{
+	position: absolute;
+	top: 35px;
+}
+
+#MBpeople3{
+	position: absolute;
+	top: 65px;
+}
+
+#MBpeople4{
+	position: absolute;
+	top: 95px;
+}
+
+#MBpeople5{
+	position: absolute;
+	top: 125px;
+}
+
+#MBpeople6{
+	position: absolute;
+	top: 155px;
+}
+
+#MBpeople7{
+	position: absolute;
+	top: 205px;
+}
+/*Delimitação espacial de Segurança*/
+#safetyi{
+ position: absolute;
+ top: 10px;
+ left: 500px;
+ width: 125px;
+ height: 150px;
+ font-family: Franklin Gothic Medium;
+}
+/*Delimitação de cada elemento de Segurança*/
+#safetyi1{
+	position: absolute;
+	top: 5px;
+}
+
+#safetyi2{
+	position: absolute;
+	top: 55px;
+}
+
+#safetyi3{
+	position: absolute;
+	top: 105px;
+}
+
+#safetyi4{
+	position: absolute;
+	top: 145px;
+}
+
+#safetyi5{
+	position: absolute;
+	top: 195px;
+}
+/*Delimitação espacial de SAC*/
+#saci{
+ position: absolute;
+ top: 10px;
+ left: 850px;
+ width: 125px;
+ height: 150px;
+ font-family: Franklin Gothic Medium;
+}
+
+/*Delimitação de cada elemento de SAC*/
+#saci1{
+   position: absolute;
+   top: 5px;
+}
+
+#saci2{
+   position: absolute;
+   top: 55px;
+}
+
+#saci3{
+   position: absolute;
+   top: 90px;
+}
+
+
+
+/*Fim Footer*/
+/*Início da aba dinâmica da Pessoa Física do cabeçalho*/
+#din1{
+	position: absolute;
+	top: -18px;
+	left: -790px;
+	z-index: 2;
+	width: 1050px;
+	height: 200px;
+	background-color:#bfbfbf;
+	display: none;
+}
+
+/*Coluna Propostas para você*/
+/*Coluna 1*/
+#col1{
+   position: absolute;
+   top: 20px;
+   left: 60px;
+   width: 150px;
+   height: 70px;
+
+}
+/*Título da coluna 1*/
+#titl1{
+   position: absolute;
+   left: 5px;
+   font-family: Franklin Gothic Medium;
+   font-style: black;
+}
+/*Delimitação espacial de cada elemento da coluna 1*/
+#lin1{
+ position: absolute;
+ top: 30px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin2{
+ position: absolute;
+ top: 50px;
+ background-color: #bfbfbf;
+ width: 150px;
+ height: 20px;
+}
+/*Formatação de cada elemento da coluna 1*/
+#txt1{
+	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#txt2{
+	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+/*Coluna Conta Corrente*/
+/*Coluna 2*/
+#col2{
+ position: absolute;
+ top: 20px;
+ left: 260px;
+ width: 150px;
+ height: 170px;
+}
+/*Título da Coluna 2*/
+#titl2{
+   position: absolute;
+   left: 20px;
+   font-family: Franklin Gothic Medium;
+   font-style: black;
+}
+
+/*Delimitação espacial de cada elemento da coluna 2*/
+#lin3{
+ position: absolute;
+ top: 30px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin4{
+ position: absolute;
+ top: 50px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin5{
+ position: absolute;
+ top: 70px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin6{
+ position: absolute;
+ top: 90px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin7{
+ position: absolute;
+ top: 110px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin8{
+ position: absolute;
+ top: 130px;
+ width: 150px;
+ height: 35px;
+ background-color: #bfbfbf;
+}
+
+/*Formatação de cada elemento da coluna 2*/
+#txt3{
+  	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;	
+}
+
+#txt4{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#txt5{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#txt6{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#txt7{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#txt8{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+/*Coluna Cartões*/
+/*Coluna 3*/
+#col3{
+ position: absolute;
+ top: 20px;
+ left: 460px;
+ width: 180px;
+ height: 135px;
+}
+
+/*Título da coluna 3*/
+#titl3{
+  position: absolute;
+  left: 55px;
+  font-family: Franklin Gothic Medium;
+  font-style: black;
+}
+/*Delimitação espacial de cada elemento da coluna 3*/
+#lin9{
+ position: absolute;
+ top: 30px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin10{
+ position: absolute;
+ top: 50px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin11{
+ position: absolute;
+ top: 70px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin12{
+ position: absolute;
+ top: 90px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin13{
+ position: absolute;
+ top: 110px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+/*Formatação de cada elemento da coluna 3*/
+#txt9{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#txt10{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+
+#txt11{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+
+#txt12{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#txt13{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+/*Coluna Atendimento*/
+/*Coluna 4*/
+#col4{
+ position: absolute;
+ top: 20px;
+ left: 690px;
+ width: 150px;
+ height: 160px;
+}
+/*Título da coluna 4*/
+#titl4{
+  position: absolute;
+  left: 30px;
+  font-family: Franklin Gothic Medium;
+  font-style: black;
+}
+/*Delimitação espacial de cada elemento da coluna 4*/
+#lin14{
+ position: absolute;
+ top: 30px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin15{
+ position: absolute;
+ top: 50px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin16{
+ position: absolute;
+ top: 70px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin17{
+ position: absolute;
+ top: 90px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin18{
+ position: absolute;
+ top: 110px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#lin19{
+ position: absolute;
+ top: 130px;
+ width: 150px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+/*Formatação de cada elemento da coluna 4*/
+#txt14{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#txt15{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#txt16{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+
+#txt17{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+
+#txt18{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+
+#txt19{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;	
+}
+/*Fim da aba dinâmica da Pessoa Física do cabeçalho*/
+
+/*Início da aba dinâmica da Pessoa Jurídica do cabeçalho*/
+#din2{
+	position: absolute;
+	top: -18px;
+	left: -790px;
+	z-index: 3;
+	width: 1050px;
+	height: 300px;
+	background-color: #bfbfbf;
+	display: none;
+}
+
+/*Coluna Propostas para você*/
+/*Coluna 1*/
+
+#co1{
+   position: absolute;
+   top: 20px;
+   left: 60px;
+   width: 170px;
+   height: 128px;
+}
+
+/*Título da coluna 1*/
+#ti1{
+   position: absolute;
+   left: 5px;
+   font-family: Franklin Gothic Medium;
+   font-style: black;
+}
+/*Delimitação espacial dos elementos da coluna 1*/
+#l1{
+ position: absolute;
+ top: 30px;
+ width: 170px;
+ height: 35px;
+ background-color: #bfbfbf;
+}
+
+#l2{
+ position: absolute;
+ top: 68px;
+ width: 170px;
+ height: 40px;
+ background-color: #bfbfbf;
+}
+
+#l3{
+ position: absolute;
+ top: 108px;
+ width: 170px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+/*Formatação dos elementos da coluna 1*/
+#tx1{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#tx2{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+#tx3{
+    position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;
+}
+
+/*Coluna Bank Personal*/
+/*Coluna 2*/
+#co2{
+ position: absolute;
+ top: 20px;
+ left: 260px;
+ width: 220px;
+ height: 110px;
+}
+/*Título da coluna 2*/
+#ti2{
+   position: absolute;
+   left: 30px;
+   font-family: Franklin Gothic Medium;
+   font-style: black;
+}
+/*Delimitação espacial dos elementos da coluna 2*/
+#l4{
+ position: absolute;
+ top: 30px;
+ width: 220px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l5{
+ position: absolute;
+ top: 50px;
+ width: 220px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l6{
+ position: absolute;
+ top: 70px;
+ width: 220px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l7{
+ position: absolute;
+ top: 90px;
+ width: 220px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+/*Formatação dos elementos da coluna 2*/
+#tx4{
+  	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;	
+}
+
+#tx5{
+  	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;	
+}
+
+#tx6{
+  	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;	
+}
+
+#tx7{
+  	position: absolute;
+	left: 10px;
+	font-family: Franklin Gothic Medium;	
+}
+
+/*Coluna Soluções Integradas*/
+/*Coluna 3*/
+#co3{
+ position: absolute;
+ top: 20px;
+ left: 510px;
+ width: 180px;
+ height: 250px;
+}
+
+/*Título da coluna 3*/
+#ti3{
+  position: absolute;
+  left: 20px;
+  font-family: Franklin Gothic Medium;
+  font-style: black;
+}
+
+/*Delimitação espacial dos elementos da coluna 3*/
+#l8{
+ position: absolute;
+ top: 30px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l9{
+ position: absolute;
+ top: 50px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l10{
+ position: absolute;
+ top: 70px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l11{
+ position: absolute;
+ top: 90px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l12{
+ position: absolute;
+ top: 110px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l13{
+ position: absolute;
+ top: 130px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l14{
+ position: absolute;
+ top: 150px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l15{
+ position: absolute;
+ top: 170px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l16{
+ position: absolute;
+ top: 190px;
+ width: 180px;
+ height: 20px;
+ background-color: #bfbfbf;
+}
+
+#l17{
+ position: absolute;
+ top: 210px;
+ width: 180px;
+ height: 40px;
+ background-color: #bfbfbf;
+}
+
+/*Formatação dos elementos da coluna 3*/
+#tx8{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx9{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx10{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx11{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx12{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx13{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx14{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx15{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx16{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+
+#tx17{
+ position: absolute;
+ left: 10px;
+ font-family: Franklin Gothic Medium;
+}
+/*Fim da aba dinâmica da Pessoa Jurídica do cabeçalho*/
