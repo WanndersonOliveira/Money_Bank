@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Money Bank</title>
+ <link rel="stylesheet" type="text/css" href="css/moneybank.css">
+</head>
+<body>
+  <!--Início do cabeçalho-->
+  <script>
+  	function Pessoa_Fisica(){
+     document.getElementById('din1').style.display = 'block';
+     document.getElementById('din2').style.display = 'none';
+    }
+    
+    function Pessoa_Juridica(){
+     document.getElementById('din2').style.display = 'block';
+     document.getElementById('din1').style.display = 'none;'
+    }
+
+    function Pessoa_out(){
+     document.getElementById('din1').style.display = 'none';
+     document.getElementById('din2').style.display = 'none';
+    }
+
+    function Footer(){
+     document.getElementById('inf').style.display = 'block';
+    }
+
+    function Footer_out(){
+     document.getElementById('inf').style.display = 'none';
+    }
+
+  </script>
+ <div class="cabecalho">
+     <div class="c1">
+     	<img src="Images/money_bank.png" width="100" height="40">
+     </div>
+     <p class="c2" onmouseover="Pessoa_out()">
+     	Money Bank
+     </p>
+     <div id="pessoafisica" onmouseover="Pessoa_Fisica()">
+       <p id="fisica">Pessoa Física</p>
+     </div>
+     <div id="pessoajuridica" onmouseover="Pessoa_Juridica()">
+          <p id="juridica">Pessoa Jurídica</p>
+     </div>
+     <div class="c3" onmouseover="Pessoa_out()">
+     <input type="text" size="15" placeholder="CPF" id="cpf">
+     <input type="password" size="10" placeholder="Senha" id="password">
+      <div id="submit">
+      	<a href="" style="text-decoration: none; color: black;">Entrar</a>
+      </div>
+     </div>
+     <div class="c4">
+     	<a href="" style="color: white;">Esqueceu a senha?</a>
+     </div>
+ </div>
+ <!--Fim do cabeçalho-->
+ <div class="body">  <!--Essa DIV é responsável pelos elementos HTML que não são o cabeçalho-->
+     <div id="texto1"> <!--Texto presente na imagem-->
+     	 <p id="pg1">Você é universitário?</p>
+     	 <p id="pg2">Abra já uma conta Money Bank Universitária.</p>
+     	 <p id="pg3">Livre de anuidade, livre de taxas mensais, livre de juros.</p>
+     </div>
+     <div id="imagem" onmouseover="Pessoa_out()"> <!--Imagem central da div body-->
+     	<img src="Images/universidade.jpg" width="800" height="500">
+     </div>
+     <div id="planos"> <!--Elemento de planos ao lado da foto-->
+         <p id="seletor">Escolha o melhor plano pra você:</p>
+         <div id="mb_ouro"> <!--Alteração do css do link direto no HTML, foi a melhor forma de se proceder-->
+         <a href="" style="text-decoration:none; color: black;">Money Bank Ouro</a></div> <!--Quando for implementar js, implemente onmouseover e altere o estilo do texto para sublinhado-->
+         <div id="mb_empr">
+         <a href="" style="text-decoration:none; color: black;">Money Bank Empresário</a></div>
+         <div id="mb_univ"><a href="" style="text-decoration:none; color: black;">Money Bank Universitária</a></div>
+         <div id="mb_prem"><a href="" style="text-decoration:none; color: black;">Money Bank Premium</</a><div>
+         <div id="mb_com"><a href="" style="text-decoration:none; color: black;">Money Bank Comum</a></div>
+         <div id="mb_voy"><a href="" style="text-decoration:none; color: black;">Money Bank Voyager</a></div>
+     </div>
+     <p id = "p1">Resolva Online e fuja da burocracia</p>
+     <div id="serv"> <!--div responsável pelos serviços-->
+     	 <div id="serv1">
+     	     <img src="Images/cartao.jpg" width="60" height="60">
+     		 <p id="serv11">Fatura de cartão</p>
+     	 </div>
+     	 <div id="serv2">
+     		 <img src="Images/boleto.jpg" width="60" height="60">
+     		 <p id="serv21">Boletos Bancários</p>
+     	 </div>
+     	 <div id="serv3">
+     		 <img src="Images/money.png" width="60" height="60">
+     		 <p id="serv31">Renegociação de dívidas</p>
+     	 </div>
+     	 <div id="serv4">
+     		 <img src="Images/simulador.png" width="60" height="60">
+     		 <p id="serv41">Simuladores</p>
+     	 </div>
+     	 <div id="serv5">
+     		 <img src="Images/seta.jpg" width="60" height="60">
+     		 <p id="serv51">Acesse todos os serviços</p>
+     	 </div>
+     </div>
+     <p id="p2">ESTAMOS CONECTADOS 24 HORAS, 7 DIAS POR SEMANA</p>
+     <div id="aplicativo"> <!--Esta div é apenas responsável por conter o elemento aplicativo money bank-->
+         <img src="Images/aplicativo.png" id="icon" width="50" height="50">
+     	 <a href="" id="aplic">APLICATIVO MONEY BANK</a>
+     </div>
+     <div id="sites"> <!--Esta div é responsável por conter os demais elementos das redes sociais do Money Bank-->
+     	 <img src="Images/facebook.png" id="icon2" width="30" height="30">
+     	 <a href="" id="face">MONEY BANK BRASIL</a>
+     	 <img src="Images/instagram.png" id="icon3" width="30" height="30">
+     	 <a href="" id="insta">@MONEYBANK_BR</a>
+     	 <img src="Images/twitter.png" id="icon4" width="30" height="30">
+     	 <a href="" id="twit">@MONEYBANK_BR</a>
+     </div>
+     <div class="linha"></div>
+ </div>
+ <div id="footer" onmouseover="Footer()" onmouseout="Footer_out()"> <!--Rodapé da página do Money Bank-->
+     <div id="we">
+     <a href="" style="text-decoration: none; color: white;">Quem nós somos?</a></div>
+     <div id="MBpeople"><a href="" style="text-decoration: none; color: white;">Money Bank pessoal</a></div>
+     <div id="safety"><a href="" style="text-decoration: none; color: white;">Segurança</a></div>
+     <div id="agency"><a href="" style="text-decoration: none; color: white;">Agências</a></div>
+     <div id="sac"><a href="" style="text-decoration: none; color: white;">SAC</a></div>
+     <div id="inf">
+         <div id="wei">
+         	 <a href="" style="text-decoration: none; color: white;" id="MBi">Money Bank internacional</a>
+         	 <a href="" style="text-decoration: none; color: white;" id="MBb">Money Bank no Brasil</a>
+         	 <a href="" style="text-decoration: none; color: white;" id="MBUSA">Money Bank USA</a>
+         </div>
+     	 <div id="MBpeoplei">
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople1">Abra sua conta</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople2">Fale Conosco</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople3">Promoções</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople4">Trabalhe Conosco</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople5">Acionistas</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople6">Relação com Investidores</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="MBpeople7">Internet Banking</a>
+     	 </div>
+     	 <div id="safetyi">
+     	 	 <a href="" style="text-decoration: none; color: white;" id="safetyi1">Segurança no Internet Banking</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="safetyi2">Saiba mais sobre Segurança</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="safetyi3">Fraudes</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="safetyi4">Política de Provacidade</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="safetyi5">Denuncie</a>
+     	 </div>
+     	 <div id="saci">
+     	 	 <a href="" style="text-decoration: none; color: white;" id="saci1">Central de Atendimento</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="saci2">Ouvidoria</a>
+     	 	 <a href="" style="text-decoration: none; color: white;" id="saci3">Dúvidas e problemas</a>
+     	 </div>
+     </div>
+ </div>
+ <!--Divs dinâmicas a partir daqui-->
+ <div id="din1">
+     <div id="col1">
+     	 <div id="titl1">
+ 		     Propostas para você
+ 	     </div>
+ 	     <div id="lin1">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt1">Conta Combinada</a>
+ 	     </div>
+ 	     <div id="lin2">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt2">Conta Conecta</a>
+ 	     </div>
+     </div>
+     <div id="col2">
+     	 <div id="titl2">
+ 		     Conta Corrente
+ 	     </div>
+ 	     <div id="lin3">
+             <a href="" style="text-decoration: none; color: white;" id="txt3">Abra sua Conta</a>
+         </div>
+         <div id="lin4">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt4">Conta Salário</a>
+ 	     </div>
+ 	     <div id="lin5">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt5">Conta Poupança</a>
+ 	     </div>
+         <div id="lin6">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt6">Conta Salário</a>
+ 	     </div>
+ 	     <div id="lin7">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt7">Tarifas e Pacotes</a>
+     	 </div>
+ 	     <div id="lin8">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt8">Encerramento de Conta</a>
+ 	     </div>
+     </div>
+     <div id="col3">
+         <div id="titl3">
+         	Cartões
+         </div>
+          <div id="lin9">
+             <a href="" style="text-decoration: none; color: white;" id="txt9">Solicite seu Cartão</a>
+         </div>
+         <div id="lin10">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt10">Conheça nossos cartões</a>
+ 	     </div>
+ 	     <div id="lin11">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt11">Cartão de Débito</a>
+ 	     </div>
+         <div id="lin12">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt12">Cartão de Crédito</a>
+ 	     </div>
+ 	     <div id="lin13">
+ 	         <a href="" style="text-decoration: none; color: white;" id="txt13">Soluções de Pagamento</a>
+     	 </div>
+     </div>
+     <div id="col4">
+     	 <div id="titl4">
+     	 	 Atendimento
+     	 </div>
+     	 <div id="lin14">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt14">Internet Banking</a>
+     	 </div>
+     	 <div id="lin15">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt15">Caixas Eletrônicos</a>
+     	 </div>
+     	 <div id="lin16">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt16">Aplicativos</a>
+     	 </div>
+     	 <div id="lin17">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt17">Banco 24 Horas</a>
+     	 </div>
+     	 <div id="lin18">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt18">No Telefone</a>
+     	 </div>
+     	 <div id="lin19">
+     	 	<a href="" style="text-decoration: none; color: white;" id="txt19">Nas Agências</a>
+     	 </div>
+     </div>
+ </div>
+ <div id="din2">
+     <div id="co1">
+     	 <div id="ti1">
+ 		     Propostas para você
+ 	     </div>
+ 	     <div id="l1">
+ 	         <a href="" style="text-decoration: none; color: white;" id="tx1">Conta corrente com juros mínimo</a>
+ 	     </div>
+ 	     <div id="l2">
+ 	         <a href="" style="text-decoration: none; color: white;" id="tx2">Conta poupança com máximo rendimento</a>
+ 	     </div>
+ 	     <div id="l3">
+ 	     	 <a href="" style="text-decoration: none; color: white;" id="tx3">Menor taxa de juros</a>
+ 	     </div>
+      </div>
+      <div id="co2">
+      	 <div id="ti2">
+      	     Money Bank Personal
+      	 </div>
+      	 <div id="l4">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx4">Empresas da Área da Saúde</a>
+       	 </div>
+      	 <div id="l5" >
+      		 <a href="" style="text-decoration: none; color: white;" id="tx5">Empresas da Construção Civil</a>
+      	 </div>
+      	 <div id="l6">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx6">Empresas da Área de TI</a>
+      	 </div>
+      	 <div id="l7">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx7">Indústrias</a>
+      	 </div>
+      </div>
+      <div id="co3">
+      	 <div id="ti3">
+      	     Soluções Integradas
+      	 </div>
+      	 <div id="l8">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx8">Câmbio</a>
+       	 </div>
+      	 <div id="l9" >
+      		 <a href="" style="text-decoration: none; color: white;" id="tx9">Investimentos</a>
+      	 </div>
+      	 <div id="l10">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx10">Pagamentos</a>
+      	 </div>
+      	 <div id="l11">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx11">Previdência</a>
+      	 </div>
+      	 <div id="l12">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx12">Recebimentos</a>
+      	 </div>
+      	 <div id="l13">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx13">Derivativos</a>
+      	 </div>
+      	 <div id="l14">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx14">Recursos Humanos</a>
+      	 </div>
+      	 <div id="l15">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx15">Seguros</a>
+      	 </div>
+      	 <div id="l16">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx16">Gestão de Caixa</a>
+      	 </div>
+      	 <div id="l17">
+      		 <a href="" style="text-decoration: none; color: white;" id="tx17">Mais Produtos e Serviços</a>
+      	 </div>
+      </div>
+ </div>
+</body>
+</html>
